@@ -31,7 +31,7 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
-    public void onClickRegBtn(){
+    public void onClickBtnReg(View view){
 
         showRegActivity();
 
@@ -49,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
     private void showRegActivity(){
 
         Intent intent = new Intent(LoginActivity.this,RegActivity.class);
+        startActivity(intent);
 
     }
 
