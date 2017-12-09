@@ -31,11 +31,26 @@ public class LoginActivity extends AppCompatActivity {
 
     }
 
+    public void onClickRegBtn(){
+
+        showRegActivity();
+
+    }
+
+
+
 
     private void showKidsActivity(){
         Intent intent = new Intent(LoginActivity.this,KidsActivity.class);
         startActivity(intent);
 
     }
+
+    private void showRegActivity(){
+
+        Intent intent = new Intent(LoginActivity.this,RegActivity.class);
+
+    }
+
 
 }

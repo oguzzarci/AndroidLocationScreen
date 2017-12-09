@@ -83,9 +83,10 @@
         android:elevation="3dp"
 
 
+        android:onClick="onClickRegBtn"
+
+
         android:shadowDx="0"
-
-
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Kayıt Ol"

@@ -26,7 +26,7 @@
         <activity
             android:name=".Activities.KidsAddActivity"
             android:label="Çocuk Ekle" />
-        <activity android:name=".RegActivity" android:label="Kayıt Ol"></activity>
+        <activity android:name=".Activities.RegActivity" android:label="Kayıt Ol"></activity>
     </application>
 
 </manifest>
